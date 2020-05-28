@@ -59,7 +59,9 @@ const Layout = ({ location, title, children }) => {
       <header>{header}</header>
       <main>{children}</main>
       <footer>
-        © Eduardo Urbina {new Date().getFullYear()}
+        © {new Date().getFullYear()}, Built with
+        {` `}
+        <a href="https://www.gatsbyjs.org">Gatsby</a>
       </footer>
     </div>
   )

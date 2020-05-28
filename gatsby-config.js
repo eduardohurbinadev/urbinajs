@@ -39,16 +39,9 @@ module.exports = {
           {
             resolve: `gatsby-remark-responsive-iframe`,
             options: {
-              wrapperStyle: `margin -bottom: 1.0725rem`,
+              wrapperStyle: `margin-bottom: 1.0725rem`,
             },
           },
-          {
-            resolve: `gatsby-plugin-i18n`,
-            options: {
-              langKeyDefault: 'en',
-              useLangKeyLayout: false
-            }
-          }
           `gatsby-remark-prismjs`,
           `gatsby-remark-copy-linked-files`,
           `gatsby-remark-smartypants`,
