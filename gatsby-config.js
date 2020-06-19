@@ -8,7 +8,7 @@ module.exports = {
     description: `A blog to tell stories about React, JS and programming.`,
     siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
     social: {
-      twitter: `UrbinaDev`,
+      twitter: `eduardourbinajs`,
     },
   },
   plugins: [
@@ -68,7 +68,7 @@ module.exports = {
         background_color: `#ffffff`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `content/assets/gatsby-icon.png`,
+        icon: `src/images/favicon-32x32.png`,
       },
     },
     `gatsby-plugin-react-helmet`,
